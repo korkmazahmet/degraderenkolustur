@@ -1,0 +1,2 @@
+# degraderenkolustur
+Degrade Renk Oluşturma

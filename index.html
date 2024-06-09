@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Degrade Renk Oluşturma</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="gradient-box" style="background: linear-gradient(to left top, rgb(86, 101, 233),  rgb(162, 113, 248));"></div>
+    <div class="row options">
+        <div class="column direction">
+            <p>Yön</p>
+            <div class="select-box">
+                <select>
+                    <option value="to top">Üst</option>
+                    <option value="to right top">Sağ Üst</option>
+                    <option value="to right">Sağ</option>
+                    <option value="to right bottom">Sağ Alt</option>
+                    <option value="to bottom">Alt</option>
+                    <option value="to left bottom">Sol Alt</option>
+                    <option value="to left">Sol</option>
+                    <option value="to left top" selected>Sol Üst</option>
+    
+                </select>
+            </div>
+        </div>
+        <div class="column colors">
+            <p>Renkler</p>
+            <div class="inputs">
+                <input type="color" value="#5432E7">
+                <input type="color" value="#5862E4">
+
+            </div>
+        </div>
+    </div>
+  <textarea class="row"></textarea>
+  <div class="row buttons">
+    <button class="yenile">Renkleri Yenile</button>
+    <button class="kopyala">Kodu Kopyala</button>
+
+  </div>
+  </div>
+</body>
+</html>
